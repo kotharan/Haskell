@@ -124,3 +124,9 @@ sain = print (intListLength [1,2,3,46])
 -- O/P : 4
 
 -----------------------------------------
+sumEveryTwo :: [Integer] -> [Integer]
+sumEveryTwo []         = [] -- Do nothing to the empty list
+sumEveryTwo (x:[])     = [] -- Do nothing to lists with a single element
+sumEveryTwo (x:(y:zs)) = (x + y) : sumEveryTwo zs
+
+mkain = print (sumEveryTwo [1,2,3,4,5,6,7,8])

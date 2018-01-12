@@ -1,6 +1,6 @@
 # Haskell
 
-Things to learn from file Doctest.hs 
+Things to learn from file Doctest.hs
 - Creating funtion to add
 - Check condition
 - Multiple funtions
@@ -15,7 +15,7 @@ Things to learn from file Doctest.hs
 - <a href="https://hackage.haskell.org/">Hackage</a> – The central package archive for the Haskell community. There are lots of useful libraries here. You can install them using the cabal tool, which comes with the Haskell Platform. First, run the following command to download the list of packages on Hackage.
 <pre>
   <i style="font-family:Lucida Console,Courier,monospace">cabal update
-  
+
 Then you can install new packages by running the following command.
   cabal install [package-name]</i>
 </pre>
