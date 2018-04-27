@@ -71,4 +71,15 @@ prog :: Prog -> State -> (State, [Line])
 prog p s = foldl progHelper (s,[]) p
 
 
+<<<<<<< HEAD
 
+=======
+--
+-- * Extra credit
+--
+
+-- | This should be a MiniMiniLogo program that draws an amazing picture.
+--   Add as many helper functions as you want.
+amazing :: Prog
+amazing = undefined
+>>>>>>> 8339e160a06fb265b121868702b9ba0e52022c43
